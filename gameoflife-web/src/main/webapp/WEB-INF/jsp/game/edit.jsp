@@ -5,7 +5,7 @@
 <%@page import="java.util.Properties" %>
 <html>
 <head>
-    <title>The Game Of Life</title>
+    <title>The Game Of Life - Michael Aggrey</title>
     <style type="text/css">
         h2 {
             color: blue;
@@ -93,7 +93,7 @@
         <input type="hidden" name="rows" value="3"/>
         <input type="hidden" name="columns" value="3"/>
         <table id="grid">
-            <c:forEach begin="0" var="row" end="2">
+            <c:forEach begin="0" var="row" end="5">
                 <tr>
                     <c:forEach begin="0" var="column" end="2">
                         <td><input name="cell_${row}_${column}" type="checkbox"/></td>
