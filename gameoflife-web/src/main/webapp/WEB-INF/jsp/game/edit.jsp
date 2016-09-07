@@ -78,14 +78,14 @@
     </style>
 </head>
 <body>
-<h2>The Game!</h2>
+<h2>The Game! YES!!!</h2>
 
 <c:url value="/home" var="homePage"/>
 <c:url value="/game/start" var="startPage"/>
 
 
 <div class="breadcrumbs">
-    <a href="${homePage}">home</a> > New Game
+    <a href="${homePage}">home</a>  New Game
 </div>
 <div class="intro">Please seed your universe</div>
 <div class="griddisplay">
@@ -95,7 +95,7 @@
         <table id="grid">
             <c:forEach begin="0" var="row" end="5">
                 <tr>
-                    <c:forEach begin="0" var="column" end="2">
+                    <c:forEach begin="0" var="column" end="5">
                         <td><input name="cell_${row}_${column}" type="checkbox"/></td>
                     </c:forEach>
                 </tr>
